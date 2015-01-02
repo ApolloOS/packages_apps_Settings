@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2019 The BlissRoms Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="apollo_version_screen"
+    android:title="@string/apollo_version"
+    settings:keywords="@string/keywords_apollo_version">
+
+    <!-- Apollo version -->
+    <Preference
+        android:key="apollo_version"
+        android:title="@string/apollo_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.apollo.ApolloVersionPreferenceController"/>
+
+    <!-- Apollo Device -->
+    <Preference
+        android:key="apollo_device"
+        android:title="@string/apollo_device"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.apollo.ApolloDevicePreferenceController"/>
+
+    <!-- Apollo build type -->
+    <Preference
+        android:key="apollo_build_type"
+        android:title="@string/apollo_build_type"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.apollo.ApolloBuildTypePreferenceController"/>
+        
+    <!-- Apollo build date -->
+    <Preference
+        android:key="apollo_build_date"
+        android:title="@string/apollo_build_date"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.apollo.ApolloBuildDatePreferenceController"/>
+
+</PreferenceScreen>

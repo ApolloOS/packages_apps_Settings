@@ -22,7 +22,7 @@
 
     <!-- ApolloOS maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="voltage_maintainer">Unofficial Maintainer</string>
+    <string name="apollo_maintainer">Unofficial Maintainer</string>
 
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
@@ -33,5 +33,6 @@
     <!-- ApolloOS version -->
     <string name="apollo_version">ApolloOS version</string>
     <string name="apollo_version_default">Unknown</string>
+    <string name="build_date">Build date</string>
 
 </resources>

@@ -29,4 +29,9 @@
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- ApolloOS version -->
+    <string name="apollo_version">ApolloOS version</string>
+    <string name="apollo_version_default">Unknown</string>
+
 </resources>

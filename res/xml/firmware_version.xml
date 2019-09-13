@@ -30,6 +30,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- ApolloOS version -->
+    <Preference
+        android:key="apollo_version"
+        android:title="@string/apollo_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.ApolloVersionPreferenceController"/>
+
     <!-- ApolloOS maintainer -->
     <Preference
         android:key="maintainer"

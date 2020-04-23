@@ -26,7 +26,7 @@ public class ApolloBuildTypePreferenceController extends BasePreferenceControlle
 
     private static final String TAG = "ApolloBuildType";
 
-    private static final String KEY_APOLLO_BUILD_TYPE = "ro.apollo.releasetype";
+    private static final String KEY_APOLLO_BUILD_TYPE = "ro.apollo.build.status";
 
     public ApolloBuildTypePreferenceController(Context context, String key) {
         super(context, key);

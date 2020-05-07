@@ -46,6 +46,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.apollo.ApolloDevicePreferenceController"/>
 
+    <!-- Apollo maintainer -->
+    <Preference
+        android:key="maintainer"
+        android:title="@string/maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.apollo.ApolloMaintainerPreferenceController"/>
+
     <!-- Apollo build type -->
     <Preference
         android:key="apollo_build_type"

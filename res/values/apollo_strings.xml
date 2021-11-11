@@ -24,4 +24,6 @@
     <string name="apollo_build_default">Unknown</string>
     <string name="apollo_build_type">Build status</string>
     <string name="apollo_device">Apollo device</string>
+    <string name="apollo_codename">Apollo Codename</string>
+
 </resources>

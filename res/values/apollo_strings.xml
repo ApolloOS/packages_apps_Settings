@@ -482,4 +482,8 @@
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+
 </resources>

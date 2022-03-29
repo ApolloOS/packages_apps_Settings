@@ -528,4 +528,6 @@
     <string name="scroll_fling_haptic_feedback_title">Vibrate on scroll flings</string>
     <string name="scroll_fling_haptic_feedback_summary">Vibrate on reaching edges when scrolling with fling gesture</string>
 
+    <string name="usercard_summary">Current active user, tap for more information</string>
+
 </resources>

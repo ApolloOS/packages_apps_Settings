@@ -69,7 +69,7 @@
         android:summary="@string/notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_notifications"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:fragment="org.apollo.spacestation.SpaceStation"
         android:icon="@drawable/ic_dashboard_spacestation"
         android:key="top_level_spacestation_settings"

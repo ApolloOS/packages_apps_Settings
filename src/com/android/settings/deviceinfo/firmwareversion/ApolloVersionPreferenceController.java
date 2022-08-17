@@ -124,10 +124,4 @@ public class ApolloVersionPreferenceController extends BasePreferenceController 
         mFunDisallowedBySystem = RestrictedLockUtilsInternal.hasBaseUserRestriction(
                 mContext, UserManager.DISALLOW_FUN, UserHandle.myUserId());
     }
-
-    @Override
-    public void copy() {
-        Sliceable.setCopyContent(mContext, getSummary(),
-                mContext.getText(R.string.apollo_version));
-    }
 }

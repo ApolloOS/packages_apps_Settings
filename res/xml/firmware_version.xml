@@ -21,6 +21,11 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/apollo_logo_layout"
+        android:key="apollo_logo"
+        android:selectable="false"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"

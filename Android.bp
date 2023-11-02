@@ -51,15 +51,21 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt",
+       "SpaceStation/src/**/*.java"],
+
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/shared/**/*.kt",
     ],
     use_resource_processor: true,
+
+    aaptflags: ["--extra-packages org.apollo.spacestation"],
+
     resource_dirs: [
         "res",
         "res-export", // for external usage
         "res-product",
+        "SpaceStation/res",
     ],
     static_libs: [
         // External dependencies
@@ -118,6 +124,11 @@ android_library {
         "telephony-common",
         "ims-common",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+
 }
 
 platform_compat_config {

@@ -30,4 +30,8 @@
     <string name="maintainer">Maintainer</string>
     <string name="apollo_maintainer">Unofficial Maintainer</string>
 
+    <!-- SpaceStation -->
+    <string name="spacestation_settings_title">SpaceStation</string>
+    <string name="spacestation_settings_summary">Uplift your device!</string>
+
 </resources>

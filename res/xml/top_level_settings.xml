@@ -68,6 +68,15 @@
         android:summary="@string/notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_notifications"/>
 
+    <Preference
+        android:fragment="org.apollo.spacestation.SpaceStation"
+        android:icon="@drawable/ic_dashboard_spacestation"
+        android:key="top_level_spacestation_settings"
+        android:order="-125"
+        android:title="@string/spacestation_settings_title"
+        android:summary="@string/spacestation_settings_summary"
+        settings:controller="org.apollo.spacestation.TopLevelSpaceStationPreferenceController" />
+
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.fuelgauge.batteryusage.PowerUsageSummary"
         android:icon="@drawable/ic_settings_battery_white"

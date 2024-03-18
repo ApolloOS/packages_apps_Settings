@@ -105,7 +105,7 @@
             android:summary="@string/power_menu_summary"
             android:fragment="com.android.settings.apollo.buttons.PowerMenuActions" />
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="power_end_call"
             android:title="@string/power_end_call_title"
             android:summary="@string/power_end_call_summary"
@@ -138,7 +138,7 @@
             android:title="@string/button_wake_title"
             android:defaultValue="true" />
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="home_answer_call"
             android:title="@string/home_answer_call_title"
             android:summary="@string/home_answer_call_summary"

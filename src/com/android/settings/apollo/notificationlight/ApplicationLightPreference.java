@@ -140,7 +140,7 @@ public class ApplicationLightPreference extends CustomDialogPreference<LightSett
 
     private void updatePreferenceViews() {
         final int size = (int) getContext().getResources().getDimension(
-                R.dimen.oval_notification_size);
+                com.apollo.support.R.dimen.oval_notification_size);
 
         if (mLightColorView != null) {
             mLightColorView.setEnabled(true);
